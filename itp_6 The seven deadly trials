@@ -55,5 +55,5 @@ Error_01:
        assert_equal( 21, length_of_string )
      end
      
-     Now I have to code a programme to pas this test.
+     Now I have to code a programme to pass this test.
   
