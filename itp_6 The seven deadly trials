@@ -7,3 +7,53 @@ Starting in Atom, opening two windows with 'ruby_functions_lab.md' file and 'rub
 From the tutorial description I'll have to figure out some code solution to the tests presented to me - 7 tests to be exact!
 
 file:///Users/arranchandra/Desktop/Screen%20Shot%202017-10-17%20at%2016.13.52.png
+
+Error_01:
+  Add functions
+    I have managed to successfully pass the add_result test by writing the code in my funcitons program:
+    
+  def add(first_number, second_number)
+    return first_number + second_number
+  end
+  
+  It seems that this code manages to pass the test.
+  
+  Error_02:
+    Subtract functions
+      Again, usisng the same framework above I was able to easily pass the subtract_result test.
+      
+    def subtract(first_number, second_number)
+      return first_number - second_number
+    end
+    
+    code passes the test woohoo!
+    
+    Error_03:
+      Multiply functions
+        Although intuative, I had to confirm * represented multiply in ruby!
+        
+      def multiply(first_number, second_number)
+        return first_number * second number
+      end
+      
+      Passed
+      
+    Error_04:
+      divide fuction
+        
+     def divide(first_number, second_number)
+      return first_number / second_number
+     end
+     
+     Error_05
+     
+     Cant figure this one out. The test code is:
+     
+     def test_length_of_string()
+       test_string = "A string of length 21"
+       length_of_string = length_of_string( test_string )
+       assert_equal( 21, length_of_string )
+     end
+     
+     Now I have to code a programme to pas this test.
+  
